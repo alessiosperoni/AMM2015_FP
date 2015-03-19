@@ -1,4 +1,4 @@
-/* Task */
+/* Task 1*/
 
 /***************************
 #header{
@@ -30,13 +30,13 @@ body{
 .current_page_item{
     font-weight: bold; //Setto il testo in grassetto a tutti gli elementi che hanno come classe current_page_item
 }
-
+/* Task 4*/
 div#content h2{
     color: #9e1616;
 }
-/* Task 4*/
 
-h1, h2, h3, h4, h5{
+
+h1, h2, h3, h4, h5, h6{
     color: #1c345a;
 }
 /* Task 5*/
