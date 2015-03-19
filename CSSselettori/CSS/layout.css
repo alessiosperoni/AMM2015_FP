@@ -1,0 +1,59 @@
+/* Task */
+
+/***************************
+#header{
+    color: white;
+    background-color: black;
+    
+}
+
+#footer{
+    color: white;
+    background-color: black;
+}
+****************************/
+body{
+    font-size: 14 px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+}
+
+#header, #footer{
+    color: white;
+    background-color: black;
+}
+/* Task 2*/
+#logo{
+    background-color: #1c345a;
+}
+/* Task 3*/
+.current_page_item{
+    font-weight: bold; //Setto il testo in grassetto a tutti gli elementi che hanno come classe current_page_item
+}
+
+div#content h2{
+    color: #9e1616;
+}
+/* Task 4*/
+
+h1, h2, h3, h4, h5{
+    color: #1c345a;
+}
+/* Task 5*/
+a{
+    color: #9e1616;
+}
+/* Task 6*/
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Task 7*/
+
+a[href="http://spano.sc.unica.it/amm2014/davide/esCSS/html/studente_esami.html"]{
+    color: #1c345a;
+}
+
+
+
