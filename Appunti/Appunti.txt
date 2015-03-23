@@ -1,0 +1,49 @@
+Box model: sono dei rettangoli uno dentro l'altro e ognuno rappresent auna zona 
+precisa. ogni elemento è un box. per calcolare come deeve essere visualizzato il 
+ns browser lo considera come un rettangolo.
+Il margine è un'area libera di cui non possiamo impostare il colore ma esso vine
+dato dal colore del box. Il border è un bordo che racchiude il rettangolo. è una 
+parte del nostro elemento sulla quale possiamo decidere di usare uno o più colori 
+diversi dalla zona interna. ci sono altri 2 rettangoli interni: il padding: uno
+spazio libero tra il border e il contenitore e il content: la zona libera. 
+
+la zona del content è la zona che contiene il testo. poi tra il contenuto e il 
+bordo c'è uno spazio grande quanto il rettangolo padding. 
+
+controllando le dimensioni di questi 4 rettangoli definirete come verrà visualiz-
+zato il box non solo al suo interno ma anche rispetto agli altri.
+
+per ogni lato di questi rettangoli potete controllare la diensione impostando 
+varie proprietà css ognuna delle quali ha un suffisso. 
+
+voglio controllare la parte alta del rettangolo margin: scrivo una proprietà css
+che si chiama margin-top. ecc.
+
+con questi suffissi create il nome della proprietà CSS che dovete controllare 
+per specificare il nome di una certa...
+
+controllate 3 parti: margin, border e padding. si possono impostare le proprietà 
+una per una oppure dare un valore unico a ognuna delle parti. ad esempio per 
+impostare un valore a tutte le parti del nostro box basta scrivere margin: 
+________________________________________________________________________________
+
+è comodo generare le tabelle con le righe pari di un colore e quelle dispari di 
+un altro.
+________________________________________________________________________________
+
+quando inserite un H1 il browser non vi permette di visualizzarlo anche se lo 
+inserite nella stessa riga di un p. c'è una interruzione di riga prima e dopo
+l'h1. questa è la modalità di visualizzazione BLOCK. 
+la modalità INLINE prende la larghezza disponibile ma non aggiunge interruzioni 
+prima e dopo. 
+
+NONE invece nasconde l'elemento senza lasciarli spazio. 
+
+la modalità di visualizzazione di default dipende dall'elemento. tutti gli h sono
+a display block di default. a, span, em, strong ecc sono inline. 
+è possibile nascondere un elemento con una proprietà: visibility: hiden. l'elem. 
+non viene visualizzato ma viene riservato lo spazio cmq. 
+
+
+
+
